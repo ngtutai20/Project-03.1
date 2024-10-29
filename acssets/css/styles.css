@@ -978,10 +978,15 @@ a {
 }
 
 .footer-item__desc {
+    display: block;
     color: var(--Scondery-color-gray, #6A8383);
     font-family: "Public Sans";
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.25; /* 225% */
+}
+
+.footer-item__desc:hover{
+    text-decoration: underline;
 }
 

@@ -9,7 +9,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: Poppins;
-    height: 10000px;
+    overflow-x: hidden;
 }
 
 /* common */

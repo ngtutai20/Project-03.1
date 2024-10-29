@@ -8,7 +8,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: Poppins;
+    font-family: Poppins , sans-serif;
     overflow-x: hidden;
 }
 
@@ -933,9 +933,8 @@ a {
     color: #FFF;
 }
 
+
 .form__email::placeholder {
-    top: 0;
-    position: absolute;
     color: var(--Scondery-color-gray, #6A8383);
     font-size: 2.2rem;
     font-weight: 600;
@@ -964,7 +963,6 @@ a {
     color: #A75325;
 }
 .arrow {
-    top: -15px;
     position: relative;
     left: -40px;
     cursor: pointer;

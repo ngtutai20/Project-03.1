@@ -58,6 +58,11 @@ body {
     margin: 0 auto;
 }
 
+input , textarea, select ,button {
+    font-family: initial;
+    font-style: inherit;
+}
+
 a {
     text-decoration: none;
 }
@@ -713,7 +718,7 @@ a {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 500;
-    line-height: 1. 62; /* 162.5% */
+    line-height: 1.62; /* 162.5% */
 }
 
 .feature__list {
@@ -915,6 +920,7 @@ a {
 }
 
 .form__email {
+    padding: 0 60px 0 10px;
     margin-top: 25px;
     outline: none;
     position: relative;
@@ -923,7 +929,8 @@ a {
     height: 59px;  
     font-size: 2rem; 
     background-color: transparent;
-    border-bottom: 1px solid var(--Scondery-color-gray, #6A8383);;
+    border-bottom: 1px solid var(--Scondery-color-gray, #6A8383);
+    color: #FFF;
 }
 
 .form__email::placeholder {
@@ -957,6 +964,7 @@ a {
     color: #A75325;
 }
 .arrow {
+    top: -15px;
     position: relative;
     left: -40px;
     cursor: pointer;
